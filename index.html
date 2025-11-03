@@ -22,11 +22,58 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="images/logo_coffeeshop_dark.svg"
+            alt="logo encabezado"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">reservar una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span>
+          <span>en Triple Peaks</span>
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="inside_coffee_shop"
+        />
+        <div class="header__footer">
+          <div class="header__paragraph">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
+
+          <p class="header__dirección">
+             <p class="header__paragraph"></p>
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
 
       <main class="content">
         <section class="recetas"></section>
