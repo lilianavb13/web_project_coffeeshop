@@ -1,0 +1,15 @@
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+}
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+  column-gap: 20px;
+  margin: 0;
+}
