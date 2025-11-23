@@ -13,3 +13,6 @@
   column-gap: 20px;
   margin: 0;
 }
+.nav__link:hover {
+  color: #2f80ed;
+}
